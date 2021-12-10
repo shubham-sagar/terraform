@@ -3,7 +3,7 @@ resource "aws_instance" "myawsserver" {
   instance_type = "t2.nano"
 
   tags = {
-    Name = "SS-aws-instance-1"
+    Name = "SS-aws-instance-2"
     Env = "test"
   }
 }
