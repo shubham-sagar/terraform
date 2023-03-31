@@ -3,7 +3,7 @@ resource "aws_instance" "myawsserver" {
   instance_type = "t2.nano"
 
   tags = {
-    Name = "SS-Aws-ins"
+    Name = "SS-AWS-ins"
     Env = "Dev"
   }
 }
