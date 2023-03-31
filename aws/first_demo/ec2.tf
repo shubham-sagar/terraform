@@ -4,7 +4,7 @@ resource "aws_instance" "myawsserver" {
 
   tags = {
     Name = "SS-aws-instance"
-    Env = "test"
+    Env = "Dev"
   }
 }
 
